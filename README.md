@@ -1,6 +1,9 @@
 # Slack name ppm
 it changes your slack name to ppm of CO2.
 
+# Sample
+![](./sample.png)
+
 # DEVELOPMENT
 prepare `dev.bash`.
 
