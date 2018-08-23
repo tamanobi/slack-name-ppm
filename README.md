@@ -17,6 +17,7 @@ export NETATOMO_MODULE_NAME=""
 export SLACK_TOKEN=""
 export SLACK_USER_ID=""
 export SLACK_USER_NAME_PREFIX=""
+export JOB_INTERVAL_MINUTE=""
 
 "$@"
 ```

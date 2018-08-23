@@ -32,7 +32,8 @@ def job():
     print(display_name)
 
 if __name__ == "__main__":
-    schedule.every(15).minutes.do(job)
+    min = os.getenv("JOB_INTERVAL_MINUTE", 15)
+    schedule.every(int(min)).minutes.do(job)
     while True:
         schedule.run_pending()
         time.sleep(1)
